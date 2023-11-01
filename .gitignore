@@ -1,0 +1,27 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/netflix-ui/node_modules
+/netflix-ui/.pnp
+/netflix-ui/.pnp.js
+
+# testing
+/netflix-ui/coverage
+
+# production
+/netflix-ui/build
+
+# misc
+/netflix-ui/.DS_Store
+/netflix-ui/.env.local
+/netflix-ui/.env.development.local
+/netflix-ui/.env.test.local
+/netflix-ui/.env.production.local
+
+/netflix-ui/npm-debug.log*
+/netflix-ui/yarn-debug.log*
+/netflix-ui/yarn-error.log*
+
+/netflix-ui/src/assets/video.avi
+
+/netflix-ui/src/assets/video.mp4
